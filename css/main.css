@@ -1,0 +1,175 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5%;
+}
+/*div{
+    border: green solid;
+}*/
+#header{
+    display: block;
+}
+.ctn{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.ctn img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    
+}
+
+nav{
+
+    display: inline-block;
+    
+}
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style:none;
+}
+.espacio{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+form{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+input{
+    margin: 5px;;
+}
+
+#caracteristicas  {
+    margin-top: 30px;
+
+}
+
+.caja{
+    display: flex;
+}
+ #caracteristicas .icono{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 125px;
+     width: 20vw;
+     background-image: url(https://4.bp.blogspot.com/_IISMJktJiB8/SP_7XQmVUJI/AAAAAAAAABk/Niom-K9psKE/s280/Coca-Cola-Tin-Sign-C11751051.jpg) ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100px 100px;/* Cambiar el tamaño */
+ }
+
+ #caracteristicas .icono-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    background-image: url(https://i.ebayimg.com/images/g/CvgAAOSw~9BZuuAJ/s-l300.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;/* Cambiar el tamaño */
+ }
+
+ #caracteristicas .icono-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    background-image: url("/product_lading_page/img/sabor.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;/* Cambiar el tamaño */
+ }
+
+ #caracteristicas .descripcion{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 125px;
+     width: 80vw;
+     padding: 5px;
+ }
+
+#como-lo-hacen{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+    
+ 
+
+ iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+#sabores{
+    
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.sabor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.sabor .nivel{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.boton{
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
