@@ -5,17 +5,34 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(221, 205, 205);
     padding: 5%;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
-/*div{
-    border: green solid;
-}*/
+
+
+.posicionamiento{
+    position: relative;
+}
 #header{
-    display: block;
+    display: flex;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 .ctn{
-    display: inline-block;
-    width: 50%;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
 
 }
 
@@ -55,7 +72,7 @@ form{
     align-items: center;
     text-align: center;
 }
-h2{
+h1{
     text-align: center;
 }
 input{
@@ -149,13 +166,13 @@ input{
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid rgb(92, 4, 4);
     border-radius: 3px;
 }
 
 .sabor .nivel{
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(190, 23, 23);
+    color: rgb(247, 242, 242);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -168,8 +185,12 @@ input{
     font-size: 1em;
     font-weight: 900;
     text-transform: uppercase;
-    border: 3px black solid;
+    border: 3px rgb(155, 78, 78) solid;
     border-radius: 2px;
     background: transparent;
     cursor: pointer;
+    color: white;
+}
+li{
+    list-style:none;
 }
